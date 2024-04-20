@@ -1,6 +1,6 @@
 FROM alpine:3.19.1
 
-ARG VERSION=v0.27.0
+ARG VERSION=v0.28.0
 
 RUN addgroup -S snapcast && adduser -S snapcast -G snapcast && \
     apk add --no-cache snapcast-server
